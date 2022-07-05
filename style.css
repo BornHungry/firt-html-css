@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: url("RE4wpoi.jfif");
+    background-size: auto;
+    font-family: 'Oswald', sans-serif;
+    
+
+}
+/* header start */
+.container{
+    width: 80%;
+    
+    margin: auto;
+    height: 100px;
+}
+.container nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    height: 100%;
+}
+.container nav .logo{
+    text-decoration: none;
+    font-size: 36px;
+    color: orangered;
+    background-color: rgba(176, 224, 230, 0.09);
+    padding: 0 12px;
+    border-radius: 25px;
+}
+.container nav ul{
+    list-style: none;
+    display: flex;
+}
+.container nav ul li{
+    margin-left: 36px;
+}
+.container nav ul li a{
+    color: orangered;
+    font-size: 18px;
+    text-decoration: none;
+    background-color: rgba(176, 224, 230, 0.09);
+    padding: 0 8px;
+    border-radius: 18px;
+    transition: all .5s ease-in;
+}
+.container nav ul li .baslık{
+    background-color: 	rgba(153, 243, 255, 0.8);
+    color: white;
+}
+.container nav ul li a:hover{
+    background-color: 	rgba(153, 243, 255, 0.8);
+    color: white;
+}
+header{
+    border-bottom: 1px solid rgba(153, 243, 255, 0.8);
+    
+}
+/* header end */
+.content h1{
+    text-align: center;
+    color:rgba(255, 69, 0, 0.8);
+    font-size: 36px;
+}
+.content p{
+    font-weight: 400;
+    color: rgb(255, 160, 122);
+    text-align: center;
+}
+.content .urunler img{
+    width: 200px;
+    height: 300px;
+    
+}
+.content .urunler{
+    display: block;
+    
+    
+}
+.content .urunler li{
+    font-weight: 400;
+    color: rgb(255, 160, 122);
+    text-align: center;
+    margin-bottom: 55px;
+}
+.contact{
+    text-align: center;
+    color:rgb(255, 69, 0);
+    font-size: 24px;
+}
+.contact a img{
+    width: 70px;
+    height: 25px;
+}
